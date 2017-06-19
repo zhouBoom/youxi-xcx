@@ -1,0 +1,92 @@
+@import '../../utils/refreshView.wxss';
+.record_search{
+    width: 100%;
+    height: 80rpx;
+    margin-top: 15rpx;
+    display: flex;
+    position: relative;
+}
+.record_search input{
+    width: 90%;
+    margin-left: 5%;
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 25rpx;
+    border: 2rpx solid #EDEEEF;
+    background-color: #fff;
+    border-radius: 10rpx;
+    text-align: center;
+}
+.record_search image{
+    width: 30rpx;
+    height: 30rpx;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    margin-left: -10rpx;
+    top: 50%;
+    margin-top: -20rpx;
+}
+.record_list{
+    background-color: #fff;
+    width: 100%;
+    min-height: 800rpx;
+}
+.section{
+    width: 100%;
+    height: 200rpx;
+    border-bottom: 1px solid #EDEEEF;
+    display: flex;
+    position: relative;
+}
+.section_left{
+    flex: 1;
+}
+.mybg{
+    position: absolute;
+    width: 180rpx;
+    height: 180rpx;
+    left: 20rpx;
+    top: 5rpx;
+}
+.left_img{
+    width: 180rpx;
+    height: 150rpx;
+    padding: 20rpx;
+}
+.section_right{
+    flex: 3;
+}
+.section_right .section_title{
+    display: block;
+    margin-top: 20rpx;
+}
+.section_detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rpx;
+    width: 280rpx;
+}
+.section_detail .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.column image{
+    width: 20rpx;
+    height: 20rpx;
+    display: inline-block;
+    padding: 0;
+}
+.column text{
+    font-size: 25rpx;
+    color: #98999A;
+    margin-left: 10rpx;
+    display: inline-block;
+}
+.item-style{  
+  padding: 30rpx;  
+  font-size: 40rpx;  
+  text-align: center;  
+  border-top: 2rpx solid #eee;  
+}  

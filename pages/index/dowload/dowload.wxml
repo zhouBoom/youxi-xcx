@@ -1,0 +1,24 @@
+<view class="dowload">
+  <view class="dowload_img">
+    <image src="../../../image/hh.jpg"/>
+  </view>
+  <view class="dowload_process">
+    <text>崔阳 讲 《演讲的力量》</text>
+    <progress percent="{{second}}" show-info="true"/>
+  </view>
+  <view class="dowload_introduction">
+    <text>下载到本地</text>
+    <text>【安卓手机可直接下载】</text>
+    <text>【因小程序限制，苹果手机无法直接下载到本地，点击下载链接后可自动复制链接，可手动去浏览器打开下载】</text>
+  </view>
+  <view class="dowload_icon">
+    <image src="../../../image/dowload.png" bindtap="showModal"/>
+  </view>
+</view>
+<view class="target_footer">
+  <text bindtap="returnPage">返回首页</text>
+  <text bindtap="next_page">再录一首</text>
+  </view>
+  <modal title="给自己的讲书取个名字吧" hidden="{{modalHidden}}" bindcancel="cancel" bindconfirm="confirm" confirm-text="确定" cancel-text="取消">
+  <input placeholder="名称"/>
+  </modal>

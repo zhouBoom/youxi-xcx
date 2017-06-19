@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/target/target",
+    "pages/my/my",
+    "pages/dry_good/dry_good",
+    "pages/index/bookStart/bookStart",
+    "pages/index/bookCore/bookCore",
+    "pages/index/dowload/dowload"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#42C6C8",
+    "navigationBarTitleText": "开始讲书",
+    "navigationBarTextStyle":"white"
+  },
+   "tabBar": {
+    "color": "#ddd",
+    "selectedColor": "#42C6C8",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/wechat.png",
+        "selectedIconPath": "image/wechatHL.png",
+        "text": "开始讲书"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "我的讲书"
+      }
+    ]
+  }
+}

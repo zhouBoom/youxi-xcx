@@ -1,0 +1,233 @@
+.swiper-tab{  
+    width: 100%;  
+    border-bottom: 0.5rpx solid #DEDFE0;  
+    text-align: center;  
+    line-height: 80rpx;}  
+.swiper-tab-list{  font-size: 25rpx; 
+    font-weight: 200; 
+    display: inline-block;  
+    color: #777777; 
+    width: 100rpx;
+    padding: 0 100rpx;
+}  
+.on{ color: #42C6C8;  
+    border-bottom: 5rpx solid #42C6C8;
+    }  
+  
+.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }  
+.process{
+    width: 100%;
+    height: 100%;
+    background-color: #F2F3F4;
+}
+.process_author{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10rpx;
+}
+.process_jieshao{
+    font-size: 30rpx;
+    display: inline-block;
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    margin-bottom: 20rpx;
+}
+.process_author>text:nth-last-of-type(1){
+    font-size: 20rpx;
+    color: #DDDEDF;
+}
+.record{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.record image{
+    width: 60rpx;
+    height: 60rpx;
+    position: absolute;
+    left: 40%;
+    
+    margin-left: -50rpx;
+    top: 30%;
+}
+.process_record{
+    border: 1rpx solid #D9DADB;
+    color: #D9DADB;
+    margin-top: 20rpx;
+    display: inline-block;
+    padding: 20rpx 280rpx;
+    border-radius: 10rpx;
+    font-size: 30rpx;
+}
+/*已录制*/
+.recorded{
+    width: 100%;
+    position: relative;
+}
+.recorded .delete{
+    width: 40rpx;
+    height: 40rpx;
+    position: absolute;
+    right: 30%;
+    top: 50%;
+    margin-top: -10rpx;
+}
+.recorded .play{
+ width: 40rpx;
+ height: 40rpx;
+ position: absolute;
+ right: 10%;
+ top: 50%;
+ margin-top: -10rpx;
+}
+
+.process_recorded{
+    border: 1rpx solid #42C6C8;
+    color: #42C6C8;
+    margin-top: 20rpx;
+    display: inline-block;
+    border-radius: 10rpx;
+    padding: 20rpx 560rpx 20rpx 26rpx;
+    margin-left: 36rpx;
+    font-size: 32rpx;
+}
+.good_tool{
+  display: flex;
+}
+.good_tool image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 40rpx;
+  display: inline-block;
+  margin-top: 20rpx;
+}
+.good_tool text{
+  font-size: 30rpx;
+  padding: 5rpx 20rpx;
+  border: 1rpx solid #42C6C8;
+  margin-left: 40rpx;
+  background-color: #fff;
+  color: #42C6C8;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.shiting{
+    width: 100%;
+    height: 200rpx;
+    background-color: #fff;
+    text-align: center;
+    border-bottom: 1rpx solid #42C6C8;
+}
+.shiting image{
+    width: 80rpx;
+    height: 80rpx;
+    margin-top: 40rpx;
+}
+.shiting text{
+    display: block;
+    font-size: 25rpx;
+    color: #42C6C8;
+}
+.target_footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 0;
+  display: flex;
+   text-align: center;
+}
+.target_footer > text:nth-of-type(1){
+  font-size: 30rpx;
+  padding: 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #F0F1F2;
+  color: #000;
+  width: 50%;
+  display: inline-block;
+}
+.target_footer > text:nth-of-type(2){
+  font-size: 30rpx;
+  padding: 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #42C6C8;
+  color: #fff;
+  width: 50%;
+  display: inline-block;
+}
+.addtem{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 100rpx;
+    
+}
+.addtem text{
+    border: 1px dashed #42C6C8;
+    padding: 40rpx 100rpx;
+    color:#D9DADB;
+}
+.centen{
+    /*display: flex;
+    justify-content: center;*/
+    background-color: #fff;
+}
+.record_already
+{
+    width: 85%;
+    height: 80rpx;
+    margin-left: 7.5%;
+    margin-bottom: 20rpx;
+    border: 2rpx solid #42C6C8;
+    border-radius: 10rpx;
+    margin-top: 10rpx;
+    color: #42C6C8;
+    position: relative;
+    line-height: 80rpx;
+
+}
+.record_already text{
+    padding-left: 20rpx;
+}
+.record_already .delete{
+    width: 35rpx;
+    height: 40rpx;
+    position: absolute;
+    right: 28%;
+    top: 25%;
+}
+.record_already .play{
+ width: 35rpx;
+ height: 35rpx;
+ position: absolute;
+ right: 12%;
+ top: 32%;
+}
+.record_hold{
+    width: 85%;
+    height: 80rpx;
+    display: block;
+    margin-left: 7.5%;
+    border: 2rpx solid #E4E5E6;
+    border-radius: 10rpx;
+    margin-bottom: 10rpx;
+    line-height: 80rpx;
+    text-align: center;
+    font-size: 30rpx;
+    position: relative;
+}
+.record_hold text{
+    padding-left: 5%;
+    color: #CCCDCE;
+}
+.record_hold image{
+    width: 30rpx;
+    height: 40rpx;
+    position: absolute;
+    left: 38%;
+    top: 25%;
+}

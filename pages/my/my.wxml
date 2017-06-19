@@ -1,0 +1,207 @@
+
+
+  <include src="../../utils/refreshHeaderView.wxml"/>
+<include src="../../utils/loadMoreFooterView.wxml"/>
+<!--<view class="container">-->
+  
+  <scroll-view class="record_list" scroll-y="true" style="position:fixed;width:100%;left:0;height:{{windowHeight-loadMoreHeight}}px;top:{{loadMoreHeight == 0? refreshHeight:-loadMoreHeight}}px;bottom:{{loadMoreHeight}}px;"  bindscroll="scroll" bindscrolltolower="lower" bindscrolltoupper="upper" bindtouchstart="start" bindtouchend="end" >
+  <view style="width:100%;height:100%;" bindtouchmove="move">
+  <view class="record_search">
+  <image src="../../image/search.png"/>
+  <input />
+  </view>
+    <view class="section">
+        <view class="section_left">
+        <image class="left_img" src="../../image/hh.jpg"/>
+        <image class="mybg" src="../../image/mybg.png"/>
+        </view>
+        <view class="section_right">
+        <text class="section_title">中国通史</text>
+        <!-- 分割线 -->
+          <view class="section_detail">
+              <view class="column">
+                <view>
+                <image src="../../image/autho.png"/>
+                <text>测试</text>
+                </view>
+                <view>
+                <image src="../../image/date.png"/>
+                <text>2017.3.6</text>
+                </view>
+              </view>
+              <view class="column">
+                <view>
+                <image src="../../image/length.png"/>
+                <text>56'</text>
+                </view>
+                <view>
+                <image src="../../image/ram.png"/>
+                <text>测试</text>
+                </view>
+              </view>
+          </view>
+        </view>
+    </view>
+    <view class="section">
+        <view class="section_left">
+        <image class="left_img" src="../../image/hh.jpg"/>
+        <image class="mybg" src="../../image/mybg.png"/>
+        </view>
+        <view class="section_right">
+        <text class="section_title">中国通史</text>
+        <!-- 分割线 -->
+          <view class="section_detail">
+              <view class="column">
+                <view>
+                <image src="../../image/autho.png"/>
+                <text>测试</text>
+                </view>
+                <view>
+                <image src="../../image/date.png"/>
+                <text>2017.3.6</text>
+                </view>
+              </view>
+              <view class="column">
+                <view>
+                <image src="../../image/length.png"/>
+                <text>56'</text>
+                </view>
+                <view>
+                <image src="../../image/ram.png"/>
+                <text>测试</text>
+                </view>
+              </view>
+          </view>
+        </view>
+    </view>
+    <view class="section">
+        <view class="section_left">
+        <image class="left_img" src="../../image/hh.jpg"/>
+        <image class="mybg" src="../../image/mybg.png"/>
+        </view>
+        <view class="section_right">
+        <text class="section_title">中国通史</text>
+        <!-- 分割线 -->
+          <view class="section_detail">
+              <view class="column">
+                <view>
+                <image src="../../image/autho.png"/>
+                <text>测试</text>
+                </view>
+                <view>
+                <image src="../../image/date.png"/>
+                <text>2017.3.6</text>
+                </view>
+              </view>
+              <view class="column">
+                <view>
+                <image src="../../image/length.png"/>
+                <text>56'</text>
+                </view>
+                <view>
+                <image src="../../image/ram.png"/>
+                <text>测试</text>
+                </view>
+              </view>
+          </view>
+        </view>
+    </view>
+    <view class="section">
+        <view class="section_left">
+        <image class="left_img" src="../../image/hh.jpg"/>
+        <image class="mybg" src="../../image/mybg.png"/>
+        </view>
+        <view class="section_right">
+        <text class="section_title">中国通史</text>
+        <!-- 分割线 -->
+          <view class="section_detail">
+              <view class="column">
+                <view>
+                <image src="../../image/autho.png"/>
+                <text>测试</text>
+                </view>
+                <view>
+                <image src="../../image/date.png"/>
+                <text>2017.3.6</text>
+                </view>
+              </view>
+              <view class="column">
+                <view>
+                <image src="../../image/length.png"/>
+                <text>56'</text>
+                </view>
+                <view>
+                <image src="../../image/ram.png"/>
+                <text>测试</text>
+                </view>
+              </view>
+          </view>
+        </view>
+    </view>
+    <view class="section">
+        <view class="section_left">
+        <image class="left_img" src="../../image/hh.jpg"/>
+        <image class="mybg" src="../../image/mybg.png"/>
+        </view>
+        <view class="section_right">
+        <text class="section_title">中国通史</text>
+        <!-- 分割线 -->
+          <view class="section_detail">
+              <view class="column">
+                <view>
+                <image src="../../image/autho.png"/>
+                <text>测试</text>
+                </view>
+                <view>
+                <image src="../../image/date.png"/>
+                <text>2017.3.6</text>
+                </view>
+              </view>
+              <view class="column">
+                <view>
+                <image src="../../image/length.png"/>
+                <text>56'</text>
+                </view>
+                <view>
+                <image src="../../image/ram.png"/>
+                <text>测试</text>
+                </view>
+              </view>
+          </view>
+        </view>
+    </view>
+    <view class="section">
+        <view class="section_left">
+        <image class="left_img" src="../../image/hh.jpg"/>
+        <image class="mybg" src="../../image/mybg.png"/>
+        </view>
+        <view class="section_right">
+        <text class="section_title">中国通史</text>
+        <!-- 分割线 -->
+          <view class="section_detail">
+              <view class="column">
+                <view>
+                <image src="../../image/autho.png"/>
+                <text>测试</text>
+                </view>
+                <view>
+                <image src="../../image/date.png"/>
+                <text>2017.3.6</text>
+                </view>
+              </view>
+              <view class="column">
+                <view>
+                <image src="../../image/length.png"/>
+                <text>56'</text>
+                </view>
+                <view>
+                <image src="../../image/ram.png"/>
+                <text>测试</text>
+                </view>
+              </view>
+          </view>
+        </view>
+    </view>
+    </view>
+  </scroll-view>
+<!--</view>-->

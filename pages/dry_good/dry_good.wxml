@@ -1,0 +1,49 @@
+<view class="container {{showView?'view_show':'view_hide'}}">
+    <view class="good_title">
+    <text>全书的核心内容</text><text>(建议填写三条你总结的洞见)</text>
+    </view>
+    <view class="good_list">
+      <input wx:for="{{num}}" placeholder="请浓缩至50个字以内"/>
+    </view>
+    <view class="good_tool">
+    <image src="../../image/add.png" data-tt="{{num}}" bindtap="addinput"/>
+    <text>看示例</text>
+    <text>二三法则</text>
+    </view>
+  <view class="target_footer">
+  <text bindtap="returnPage">上一步</text>
+  <text bindtap="next_page">下一步</text>
+  </view>
+</view>
+
+
+<scroll-view class="summary {{showView?'view_hide':'view_show'}}">
+  <view class="gift">
+  <text>你的心态：用心准备一份礼物</text>
+  <text>想象这个场景,你得给你的忘年好友一份自己准备的礼物。你内心很开心、放松、可能还有点小兴奋。‘送礼物‘的心态正是最棒的！好好品味z和中状态，贯穿讲书的始终。</text>
+    <view class="play_view">
+      <image src="../../image/play2.png"/>
+      <text class="play">播放</text>
+    </view>
+  </view>
+  <view class="tone">
+  <text>你的语气：放松、亲切、自然</text>
+  <text>如果你不是专业演讲者，选择你最擅长的、喜欢的方式会是一个好选择，你的轻松和自然会通过你的语气传给听众，让他们在放松的心情中听你讲书。如果你是专业讲者，请尽情发挥吧～</text>
+    <view class="play_view">
+    <image src="../../image/play2.png"/>
+      <text class="play">播放</text>
+    </view>
+  </view>
+  <view class="using">
+  <text>你的用词</text>
+  <text>少一些专业术语，多一些口语句，加点诙谐幽默，让粉丝爱上你</text>
+    <view class="play_view">
+    <image src="../../image/play2.png"/>
+    <text class="play">播放</text>
+    </view>
+  </view>
+  <view class="target_footer2">
+  <text bindtap="next_page">上一步</text>
+  <text bindtap='startBook'>开始录音</text>
+  </view>
+</scroll-view>

@@ -1,0 +1,59 @@
+<view class="container {{showView?'view_show':'view_hide'}}">
+<view class="target_play">
+  <!-- 文字 -->
+  <view class="target_text">
+  <text>{{text}}</text>
+  </view>
+  <!-- 图标 -->
+  <view class="target_icon">
+      <image src="../../image/play.png"></image>
+  </view>
+  <text class="test">聆听／阅读</text>
+</view>
+<!-- input -->
+<view class="target_input">
+    <text>想讲的书</text>
+    <input placeholder="书名及作者"/>
+    <text>讲给谁听</text>
+    <input placeholder="15个字以内"/>
+    <text>希望听众收获什么价值</text>
+    <textarea placeholder="30个字以内"/>
+    <text class="eye_lz" bindtap="eye_lz">看示例</text>
+</view>
+<!--<view class="audio {{showView?'view_hide':'view_show'}}">
+<audio
+id="myAudio"
+action="{{action}}"
+    src='http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E06DCBDC9AB7C49FD713D632D313AC4858BACB8DDD29067D3C601481D36E62053BF8DFEAF74C0A5CCFADD6471160CAF3E6A&fromtag=46'
+    poster= '../../image/fandeng.jpg'
+    controls="true"
+    name="颠覆人力资源"
+    author="樊登" />
+  <audio
+id="test1"
+action="{{action}}"
+    src='http://m2.music.126.net/aEQWVOFw5QRjOJMS0_3D0g==/3419481182083996.mp3'
+    poster= ''
+    controls="true"
+    name="测试2"
+    author="周斌" />
+  <button type="primary" bindtap="listenerButtonPlay" id="myAudio">播放</button>
+  <button type="primary" bindtap="listenerButtonPlay" id="test1">播放</button>
+  <button type="primary" bindtap="listenerButtonPlay">播放</button>
+</view>-->
+<!--正常速度-->
+<view class="target_footer">
+  <text bindtap="next_tap">下一步</text>
+</view>
+</view>
+
+<!-- 查看示例 -->
+<view class="ck_sl {{showView?'view_hide':'view_show'}}">
+  <text class="ck_sl_1">你的听众</text>
+  <view class="ck_nr">
+  <text>樊登 讲《养育男孩》  听众：男孩小于10岁的父母</text>
+  </view>
+  <view class="target_footer">
+  <text bindtap="eye_lz">上一步</text>
+</view>
+</view>

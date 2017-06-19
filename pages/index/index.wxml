@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+ <view class="begin_js">
+      <image src="../../image/record.png" class="record_img"></image>
+      <view class="begin_js_text">
+      <text>讲一本好书</text>
+      <text>让世界倾听你的智慧</text>
+      </view>
+      <button class="begin_lz" bindtap="begin_lz">开始录音</button>
+  </view>
+<view class="wz">
+  <view class="lilu_zc">
+  <text>理论支持</text>
+  <text>彼得 迈尔斯／尚恩 尼克斯《高效演讲》</text>
+  <text>TED演讲方法论《演讲的力量》</text>
+  <text>史蒂夫 E 卢卡斯 《演讲的技巧》</text>
+  </view>
+  <view class="gx">
+  <text>特别感谢</text>
+  <text>樊登、沙怀、老罗、陈药师</text>
+  </view>
+</view>
+</view>
